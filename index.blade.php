@@ -18,6 +18,7 @@
 			<td>{{$user->name}}</td>
 			<td><a href="city/edit/{{$user->id}}">Edit</a></td>
 			<td><a href="city/delete/{{$user->id}}">Delete</a></td>
+			<td><a href="city/index/{{$user->id}}">Show List</a></td>
 		</tr>
 		@endforeach
 	</table>
